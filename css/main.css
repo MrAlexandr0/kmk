@@ -1,0 +1,211 @@
+/* CSS Dimension 0.2 10.04.15 cloudberry.it */
+/* 
+	Color palette:
+	Bauto_blå : #0b406b;
+	Highl_orange : #d47900; - used in syntax
+	Light_grey : #dadada; - used in marked_syntax
+	Light_blue : #f0f5ff; - used in expl
+	groomy_blue : #84d2ff; - used in footer logo
+	Orange_background : #FEF0DB; - used as a background for synt
+	
+*/
+/* -------------------
+	Std Styles
+ ------------------- */ 
+/*Clean URL*/
+.cleanurl{
+	text-decoration: none;
+}
+/* -------------------
+	Docu
+ ------------------- */ 
+ body {
+    margin: 0;
+    padding: 0;
+    }
+
+#content {
+width: 90%;
+min-width: 600px;
+
+/*margin-top: -22px;*/
+padding-top: 22px;
+top: 0px;
+/*margin-bottom: -32px;*/
+margin: 0 auto;
+}
+ 
+ /* -------------------
+	MenuTop
+ ------------------- */ 
+ #topmenu {
+	 /* Dimension */
+	 margin-top: 5px;
+	 min-height: 64px;
+	 margin-bottom: 0px;
+	overflow: hidden;
+	
+	  /* Stil */
+	 background-color: #000000;
+	 opacity: 0.85;
+ }
+ 
+ #menubar {
+	 /* Dimension */ 
+	 margin-left: 50px;
+
+	/* Stil */
+	/*background-color: fuchsia;*/
+	
+ } 
+ 
+ #menubutton{
+	 /* Dimension */
+	 text-decoration: none;
+	 color: #ffffff;
+	 padding-left: 4px;
+	 padding-right: 4px;
+	 margin-left: 6px;
+	 margin-top: 10px;
+	 padding-top: 6px;
+	 padding-bottom: 6px;
+	 /* hvor langt ned teksten skal inne i diven: */
+	 line-height: 30px;
+	 border: 1px solid #2B202E;
+	 
+	 /* Stil */
+	 background-color: #1B1B1B;
+	 font-family: "Palatino Linotype", Helvetica, Arial;
+	 font-size: larger;
+
+ }
+ 
+ #menubutton:hover{
+color: #F6F3D4
+ }
+
+ .fright{
+	 float: left;
+ }
+ /* -------------------
+	SideBar
+ ------------------- */ 
+ 
+ 
+ /* -------------------
+	Content
+ ------------------- */ 
+ /* Syntax Highlight */
+ .synt{
+ color: #d47900;
+ background-color: #FEF0DB;
+ }
+  /*.synt{
+ color: #d47900;
+ background-color: #dadada;
+ }*/
+ /* explanation highlight */
+ .expl{
+	 color: #003c8f;
+	 background-color: #f0f5ff
+ }
+ /* Example result*/
+ .examp{
+	 color: #6c0089
+ }
+ 
+ #content_list {
+	 text-decoration: none;
+	 color:	#0b406b;
+	 font-family: "Palatino Linotype", Helvetica, Arial;
+	 font-weight: bold;
+ }
+ #content_list:hover{
+	 color: #790000;
+ }
+
+ /* 404 */
+ #bluescreen_box{
+ 	/*Dimension*/
+ 	text-align: center;
+ 	min-height: 600px;
+ 	min-width: 80%;
+
+ 	/*Stil*/
+ 	background-color: #6BB3FF
+
+ }
+  #bluescreen_txtbox{
+ 	/*Dimension*/
+ 	text-align: left;
+ 	min-width: 60%;
+ 	margin-left: 30%;
+
+ 	/*Stil*/
+ 	background-color: #6BB3FF
+
+ }
+ #bluescreen_h1{
+ 	font-weight: bold;
+	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	padding-left: 11px;
+ 	padding-right: 11px;
+ 	font-size: large;
+ 	background-color: #FFFFFF;
+ 	color: #6BB3FF;
+ }
+  #bluescreen_p{
+ 	font-size: large;
+ 	background-color: #6BB3FF;
+ 	color: #FFFFFF;
+ }
+ /* -------------------
+	Filestack
+ ------------------- */
+ /* MOVED TO ITS OWN CSS
+		Disse bør slåes sammen
+	End of Filestack*/
+	
+ /* -------------------
+ /* -------------------
+	Docustack
+ ------------------- */
+ /* MOVED TO ITS OWN CSS
+		Disse bør slåes sammen
+	End of Filestack*/
+	
+ /* -------------------
+	 
+	Footer
+ ------------------- */
+ /* Nederste del på siden.*/
+ #footer{
+	 
+	 min-height: 100px;
+	 background-color: #000000;
+	 
+ }
+
+ /* signatur rett over footer*/ 
+ #anchor{
+	 /* Style */
+	 background-color: #84d2ff;
+	 /* Dimension */
+	 margin-right: 20px;
+	 float: right; 
+	 width: 150px;
+	 height: 24px;
+ }
+ #anchortext{
+	 /* Style */
+	 font-family: "Palatino Linotype", Helvetica, Arial;
+	 font-size: medium;
+	 
+	 /* Dimension 
+	 padding-top: 4px;
+	 padding-left: 4px;
+	 padding-right: 4px;
+	 margin-right: 4px;
+	 margin-left: 4px;*/
+ }

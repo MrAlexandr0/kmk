@@ -1,0 +1,73 @@
+<a name="if_statements"></a>
+<h2> IF Statements</h2>
+<?php include('main_/if_statements.php'); ?>
+
+<a name="else_elseif"></a>
+<h2> Else and Elseif </h2>
+<?php include('main_/else_elseif.php'); ?> 
+
+<a name="logical_operators"></a>
+<h2> Logical Operators </h2>
+<?php include('main_/logical_operators.php'); ?>
+
+<a name="switch_statements"></a>
+<h2> Switch Statements </h2>
+<?php include('main_/switch_statements.php'); ?>
+
+<a name="while_loops"></a>
+<h2> While loops </h2>
+<?php include('main_/while_loops.php'); ?>
+
+<a name="for_loops"></a>
+<h2> For Loops </h2>
+<?php include('main_/for_loops.php'); ?> 
+
+<a name="foreach_loops"></a>
+<h2> Foreach Loops</h2>
+<?php include('main_/foreach_loop.php'); ?>
+
+<a name=""></a>
+<h2> </h2>
+<?php include('main_/'); ?>
+
+----------------------------------------
+<h1> Main Page</h1>
+
+<h2> Introduction </h2>
+
+	<p> Hi!
+		<br>This is the main page of this educational experience with php. 
+		<br>I'm trying to repeat all the necessary basic steps to begin using PHP as a programming lanugage on my webserver.
+	</p>
+	
+<h2> Contents</h2>
+<?php include('main_/contents.php'); ?>
+<?php //innholdsfortegnelse
+$contentlist = array (	"if_statements" => "if statements",
+						"else_elseif" => "else and elseif",
+						"logical_operators" => "Logical operators",
+						"switch_statements" => "Switch statements",
+						"while_loops" => "While loops",
+						"for_loops" => "For loops",
+						"foreach_loops" => "foreach loops"
+);
+
+foreach ($contentlist as $content_id => $content_descr){
+	echo "<a id='" . "content_list'" . " href='" . "#$content_id'" . "> - $content_descr </a><br>";
+}
+?>
+
+<?php 
+	foreach ($contentlist as $content_id => $content_descr){
+		echo '<a name="' . $content_id . '"></<a>';
+		echo  "<h2> $content_descr </h2>";
+		include("main_/$content_id.php");
+	}
+?>
+ 
+ 
+<?php /* copy paste for ny overskrift
+<a name=""></a>
+<h2> </h2>
+<?php include('main_/'); ?> 
+*/ ?>

@@ -1,0 +1,128 @@
+/* -------------------
+	Filestack
+ ------------------- */
+ #filestack{ /*same as box*/
+ 	display: inline-block;
+ 	text-align: center;
+ 	margin-right: 1%;
+ 	margin-bottom: 1%;
+ 	/*word-wrap:break-word;*/
+ 	/*height: 200px;*/
+ 	min-width: 200px;
+ }
+ #filestacktext{
+ 	word-wrap:break-word;
+	font-family: "Palatino Linotype", Helvetica, Arial;
+	font-weight: bold;
+ 	font-size: 100%;
+ 	padding-left: 4px;
+ 	padding-right: 4px;
+ }
+
+/* Picture*/
+ .filestack_picture{
+ 	background: #66B466;
+ }
+ .filestack_picture:hover{
+ 	background: #3A7B3A;
+ }
+ .filestacktext_picture{
+ 	color:	#1D5908;
+ 	background: #BFF0BF;
+ } /* Picture END*/
+
+/* doc*/
+ .filestack_doc{
+ 	background: #3F67E8;
+ }
+ .filestack_doc:hover{
+ 	background: #223EE8;
+ }
+ .filestacktext_doc{
+ 	color:	#0C1C59;
+ 	background: #D8D9F2;
+ } /* doc END*/
+
+ /* xls*/
+ .filestack_xls{
+ 	background: #3F67E8;
+ }
+ .filestack_xls:hover{
+ 	background: #223EE8;
+ }
+ .filestacktext_xls{
+ 	color:	#0C1C59;
+ 	background: #D8D9F2;
+ } /* xls END*/
+
+ /* visio*/
+ .filestack_visio{
+ 	background: #3F67E8;
+ }
+ .filestack_visio:hover{
+ 	background: #223EE8;
+ }
+ .filestacktext_visio{
+ 	color:	#0C1C59;
+ 	background: #D8D9F2;
+ } /* visio END*/
+ 
+ /* codes*/
+ .filestack_code{
+ 	background: #A622CD;
+ }
+ .filestack_code:hover{
+ 	background: #741490;
+ }
+ .filestacktext_code{
+ 	color:	#3D014F;
+ 	background: #E7A2FC;
+ } /* codes END*/
+
+/* compressed*/
+ .filestack_compressed{
+ 	background: #ECEA49;
+ }
+ .filestack_compressed:hover{
+ 	background: #E2D509;
+ }
+ .filestacktext_compressed{
+ 	color:	#0D1E5E;
+ 	background: #FFFEBA;
+ } /* compressed END*/
+
+ /* movies*/
+ .filestack_movie{
+ 	background: #FA3737;
+ }
+ .filestack_movie:hover{
+ 	background: #E21313;
+ }
+ .filestacktext_movie{
+ 	color:	#0D1E5E;
+ 	background: #FFC8C8;
+ } /* movies END*/
+
+ /* isos*/
+ .filestack_iso{
+ 	background: #FEB157;
+ }
+ .filestack_iso:hover{
+ 	background: #FF8900;
+ }
+ .filestacktext_iso{
+ 	color:	#0D1E5E;
+ 	background: #FFCF98;
+ } /* isos END*/
+
+ /* others*/
+ .filestack_other{
+ 	background: #3753B9;
+ }
+ .filestack_other:hover{
+ 	background: #2141B7;
+ }
+ .filestacktext_other{
+ 	color:	#0D1E5E;
+ 	background: #627EE5;
+ } /* others END*/
