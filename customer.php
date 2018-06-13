@@ -20,7 +20,9 @@
 
 <?php 
 
-Echo "Customer"
+Echo "Customer";
+
+echo "hi"
 /*
 	// Tiles of files
 
